@@ -1,0 +1,14 @@
+01/20/2004:02:34:45PM:00000052.485:INFOR:OpenDatabase,Connecting to Micrsoft Access Database using: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Dev\MTU\ToVAAS\Source\Settings.mdb;Persist Security Info=False
+01/20/2004:02:34:45PM:00000052.485:INFOR:OpenDatabase,Opening ADO Connection=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Dev\MTU\ToVAAS\Source\Settings.mdb;Persist Security Info=False
+01/20/2004:02:34:45PM:00000052.486:INFOR:OpenDatabase,Opening Project List Recordset as SELECT * FROM ProjectList ORDER BY ProjectName
+01/20/2004:02:34:45PM:00000052.486:INFOR:OpenDatabase,Opening GPS Device Recordset as SELECT * FROM GPS_Devices WHERE ProjectName='Default' ORDER BY DeviceID
+01/20/2004:02:34:45PM:00000052.486:INFOR:OpenDatabase,Opening Transmit Vehicle Message Recordset as SELECT * FROM VehicleMessages WHERE ProjectName='Default' ORDER BY MsgID
+01/20/2004:02:34:45PM:00000052.486:INFOR:OpenDatabase,Timed,.9074 seconds.
+01/20/2004:02:34:46PM:00000052.486:INFOR:ConnectToDSS,Connecting to DSS...
+01/20/2004:02:34:49PM:00000052.490:INFOR:ConnectToGPS,Connecting to GPS devices...
+01/20/2004:02:34:49PM:00000052.490:INFOR:ConnectToGPS,Opening GPS='GPS1',Port='COM10',Settings='115200,n,8,1',Handshaking=3
+01/20/2004:02:34:49PM:00000052.490:INFOR:ConnectToGPS,Failed To Open GPS='GPS1',Port='COM10',Settings='115200,n,8,1',Handshaking=3
+01/20/2004:02:34:49PM:00000052.490:INFOR:ConnectToGPS,Opening GPS='GPS2',Port='COM11',Settings='115200,n,8,1',Handshaking=3
+01/20/2004:02:34:49PM:00000052.490:INFOR:ConnectToGPS,Failed To Open GPS='GPS2',Port='COM11',Settings='115200,n,8,1',Handshaking=3
+01/20/2004:02:34:50PM:00000052.490:INFOR:OpenNeoVI, Opened NeoVI successfully.
+01/20/2004:05:53:07PM:00000064.387:INFOR:Closed the NeoVI Port.
